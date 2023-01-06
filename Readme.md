@@ -1,0 +1,1 @@
+This project is a full stack project using MERN stack.
