@@ -12,20 +12,6 @@ const EditProfile = () => {
   const [newlname, setNewlname] = useState("");
   const [newEmail, setNewEmail] = useState("");
   const email = localStorage.getItem("id");
-  //   axios
-  //     .get("http://localhost:8081/Profile", {
-  //       headers: { Authorization: `Bearer ${tokenStr}` },
-  //     })
-  //     .then(function (response) {
-  //       const data = response.data;
-  //       if (data.success) {
-  //         setEmail(data.data.email);
-  //       }
-  //     })
-  //     .catch(function (error) {
-  //       // handle error
-  //       console.log(error);
-  //     });
   const update = (e) => {
     e.preventDefault();
     const validateEmail = (newEmail) => {
